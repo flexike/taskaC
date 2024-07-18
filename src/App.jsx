@@ -72,14 +72,14 @@ function App() {
           <img
             src={carGrass}
             className="carGrass"
-            data-speedx="0.09"
-            data-speedy="0.03"
+            data-speedx="0.009"
+            data-speedy="0.008"
             alt="3"
           />
           <img
             src={grassFront}
             className="grassFront"
-            data-speedx="0.03"
+            data-speedx="0.01"
             alt="4"
           />
         </main>
