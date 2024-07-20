@@ -7,7 +7,6 @@ import logo from "./assets/logo.svg";
 function App() {
   let grass_car = document.getElementsByClassName("carGrass");
   let grass_front = document.getElementsByClassName("grassFront");
-  let sectionWindow = document.getElementsByTagName("section");
 
   let xValue = 0,
     yValue = 0;
@@ -31,7 +30,6 @@ function App() {
 
   return (
     <section>
-      {/* imgs */}
       {/* center div*/}
       <div className="container">
         {/* border*/}
@@ -69,6 +67,7 @@ function App() {
           <div className="btn-wrapper">
             <a href="">Signup</a>
           </div>
+          {/* imgs */}
           <img
             src={carGrass}
             className="carGrass"
